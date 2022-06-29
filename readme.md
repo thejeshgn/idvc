@@ -13,28 +13,28 @@ Project Page : [https://thejeshgn.com/projects/idly-dose-vada-coffee-price-surve
 - check `data/data.json`
 ```
 {
-    "id": "15435e6e-4334-440d-92cd-734f9b2671d7",
-    "key": "15435e6e-4334-440d-92cd-734f9b2671d7",
+    "id": "20df46da-637a-47ae-8f57-de4ac38e30dc",
+    "key": "20df46da-637a-47ae-8f57-de4ac38e30dc",
     "value":
     {
-        "_id": "15435e6e-4334-440d-92cd-734f9b2671d7",
-        "_rev": "3-81cb11727286832d9681f99d1f17cfb6",
+        "_id": "20df46da-637a-47ae-8f57-de4ac38e30dc",
+        "_rev": "3-b81deb73a91c71b5d4eea17b32d33a89",
         "type": "data",
-        "name_of_restaurant": "",
-        "idly_two": 50,
+        "name_of_restaurant": "Sagar Fast Food",
+        "idly_two": 30,
         "masala_dosa": 50,
-        "vada": 25,
-        "regular_coffee": 12,
-        "mini_coffee": null,
+        "vada": 30,
+        "regular_coffee": null,
+        "mini_coffee": 13,
         "ac": "no",
         "type_of_restaurant":
         [
             "standing_sitting_inside"
         ],
-        "lat": "12.834402",
-        "lng": "77.694378",
-        "submission_time": "2022-05-26T01:40:45.00+05:30",
-        "submitted_by": ""
+        "lat": "12.9306728",
+        "lng": "77.6228462",
+        "submission_time": "2022-05-29T14:43:06.00+05:30",
+        "submitted_by": "thejeshgn"
     }
 }
 ```
