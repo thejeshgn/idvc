@@ -8,7 +8,7 @@ couch = couchdb.Server(idvc_db_full_url)
 database = couch[couchdb_db_name]
 
 CSV_PATH = "../raw/raw.csv"
-ALLOW_UPDATE = True
+ALLOW_UPDATE = False
 input_file = csv.DictReader(open(CSV_PATH), delimiter=";")
 
 def load_data():
@@ -17,7 +17,7 @@ def load_data():
         #print(row)
         ## if you want the approved rows then check
         ## data["_validation_status"] == "validation_status_approved"
-        data["_id"] = row["_uuid"]
+        data["_id"] = row["_id"]
         data["type"] = "data"
         data["name_of_restaurant"] = row["Name_of_Restaurant"]
         data["idly_two"] = None if row["Idly_Two"] == "" else int(row["Idly_Two"])
@@ -45,12 +45,13 @@ def upsert_data(data):
                 print("##### UPDATING #####")
                 existing_data = database[_id]
                 _rev = existing_data["_rev"]
-                data["_rev"] = _rev        
+                data["_rev"] = _rev
                 database.save(data)
+                print("saved",data)
         except couchdb.http.ResourceNotFound:
                 print("##### ADDING #####")
-                database.save(data) 
-    print("saved", data)    
+                database.save(data)
+                print("saved", data)
 
 
 
