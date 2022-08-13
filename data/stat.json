@@ -1,3 +1,0 @@
-{"total_rows":1,"offset":0,"rows":[
-{"id":"current_stats","key":"current_stats","value":{"_id":"current_stats","_rev":"1-58ba84b6e9cbac6100aa0a69532bb0eb","type":"stat","idly_two":{"max":50,"min":20,"mean":30.18,"median":25,"mode":25,"sd":8.91},"masala_dosa":{"max":50,"min":99,"mean":57.67,"median":50,"mode":50,"sd":15.9},"vada":{"max":39,"min":25,"mean":27.45,"median":25,"mode":25,"sd":4.34},"regular_coffee":{"max":35,"min":10,"mean":16.92,"median":15,"mode":15,"sd":6.27},"last_updated_on":"2020-07-05T15:45:00.000+05:30"}}
-]}
