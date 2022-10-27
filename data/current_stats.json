@@ -1,38 +1,38 @@
 {
   "_id": "current_stats",
-  "_rev": "7-5fdeee7b0442e7956dab4eb0ce8711c5",
+  "_rev": "8-f05a19114fba48798dcfcfdf019ffdd4",
   "type": "stat",
-  "last_updated_on": "2022-09-02T14:59:44.635337+05:30",
+  "last_updated_on": "2022-10-27T10:22:21.849550+05:30",
   "idly_two": {
-    "max": 51,
+    "max": 76,
     "min": 20,
-    "mean": 32.18,
+    "mean": 33.59,
     "median": 30,
     "mode": 30,
-    "sd": 8.74
+    "sd": 11.88
   },
   "masala_dosa": {
     "max": 113,
     "min": 40,
-    "mean": 59.1,
-    "median": 50,
+    "mean": 61.96,
+    "median": 55,
     "mode": 50,
-    "sd": 19.21
+    "sd": 21.16
   },
   "vada": {
     "max": 56,
     "min": 15,
-    "mean": 27.83,
+    "mean": 28.28,
     "median": 25,
     "mode": 25,
-    "sd": 8
+    "sd": 8.92
   },
   "regular_coffee": {
-    "max": 39,
+    "max": 41,
     "min": 10,
-    "mean": 16.12,
+    "mean": 16.93,
     "median": 15,
     "mode": 15,
-    "sd": 7.26
+    "sd": 8.23
   }
 }
