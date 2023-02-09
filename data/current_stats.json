@@ -1,38 +1,42 @@
 {
-  "_id": "current_stats",
-  "_rev": "8-f05a19114fba48798dcfcfdf019ffdd4",
-  "type": "stat",
-  "last_updated_on": "2022-10-27T10:22:21.849550+05:30",
-  "idly_two": {
-    "max": 76,
-    "min": 20,
-    "mean": 33.59,
-    "median": 30,
-    "mode": 30,
-    "sd": 11.88
-  },
-  "masala_dosa": {
-    "max": 113,
-    "min": 40,
-    "mean": 61.96,
-    "median": 55,
-    "mode": 50,
-    "sd": 21.16
-  },
-  "vada": {
-    "max": 56,
-    "min": 15,
-    "mean": 28.28,
-    "median": 25,
-    "mode": 25,
-    "sd": 8.92
-  },
-  "regular_coffee": {
-    "max": 41,
-    "min": 10,
-    "mean": 16.93,
-    "median": 15,
-    "mode": 15,
-    "sd": 8.23
-  }
+    "_id": "current_stats",
+    "_rev": "10-4fd18b9b30065f3a28a68ec1c1342e34",
+    "type": "stat",
+    "last_updated_on": "2023-02-09T20:19:14.626986+05:30",
+    "idly_two":
+    {
+        "max": 40,
+        "min": 20,
+        "mean": 29.17,
+        "median": 27.5,
+        "mode": 25,
+        "sd": 7.36
+    },
+    "masala_dosa":
+    {
+        "max": 100,
+        "min": 50,
+        "mean": 64.17,
+        "median": 52.5,
+        "mode": 50,
+        "sd": 21.08
+    },
+    "vada":
+    {
+        "max": 40,
+        "min": 25,
+        "mean": 27.5,
+        "median": 25,
+        "mode": 25,
+        "sd": 6.12
+    },
+    "regular_coffee":
+    {
+        "max": 25,
+        "min": 12,
+        "mean": 15.17,
+        "median": 13.5,
+        "mode": 12,
+        "sd": 5.04
+    }
 }
