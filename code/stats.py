@@ -6,7 +6,7 @@ dt = datetime.now()
 
 ## THIS IS A HACK. WILL UPDATE LATER
 
-CSV_PATH = "/home/thej/code/idvc/raw/raw.csv"
+CSV_PATH = "../raw/raw.csv"
 ALLOW_UPDATE = False
 input_file = csv.DictReader(open(CSV_PATH), delimiter=";")
 
