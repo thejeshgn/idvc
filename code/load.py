@@ -1,3 +1,9 @@
+# /// script
+# dependencies = [
+#   "couchdb"
+# ]
+# ///
+
 import csv
 import couchdb
 import os

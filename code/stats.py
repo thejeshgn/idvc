@@ -1,3 +1,10 @@
+# /// script
+# dependencies = [
+#   "couchdb",
+#   "pandas"
+# ]
+# ///
+
 import csv
 import os
 import pandas as pd
@@ -69,4 +76,4 @@ def simple_stat(year, current=True):
         print(document)
     
 if __name__ == "__main__":
-    simple_stat(year=2024, current=True)
+    simple_stat(year=2025, current=True)
